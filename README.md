@@ -26,12 +26,15 @@ Both phases incorporate chain-of-thought reasoning, enhancing transparency and h
 Initial models are trained using the Reinforcement Learning from Human Feedback (RLHF) method, focusing on helpfulness. These models are further trained to integrate harmlessness by evaluating both attributes. This method significantly enhances the models' ability to adhere to instructions and ethical guidelines. The "HH" models, trained on both helpfulness and harmlessness, demonstrate notable harmlessness compared to those trained only on helpfulness.
 
 **Key Findings**
+
 - **Improvement in AI Capability**: As AI models become more capable, their ability to identify harmful content improves, particularly with the use of chain-of-thought reasoning.
 - **Reduction in Harmfulness**: Repeated application of model-generated critiques and revisions effectively reduces the harmfulness of responses without sacrificing helpfulness.
 
 **Future Directions**
+
 The paper discusses potential enhancements in scalability and efficiency of AI supervision, development of more robust AI systems, and the possibility of expanding behavioral ranges. There is an ongoing need to align AI behavior more closely with human values and ethics, which includes refining the constitutional principles.
 
 **Critical Analysis**
+
 Challenges such as defining comprehensive and ethically aligned principles, ensuring scalability and adaptability, and legal compliance are discussed as areas needing further exploration and development.
 
