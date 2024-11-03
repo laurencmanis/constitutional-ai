@@ -1,4 +1,4 @@
-Constitutional AI (CAI): Overview and Methodology
+**Constitutional AI (CAI): Overview and Methodology**
 
 **Introduction**
 As Artificial Intelligence (AI) systems advance, leveraging their capabilities to supervise other AIs becomes imperative. "Constitutional AI" (CAI) is introduced as a methodology for developing AI assistants that inherently promote helpful behaviors and avoid harmful ones. CAI emphasizes self-improvement and minimizes the need for human-generated labels for identifying detrimental outputs, offering a viable solution for autonomous AI supervision.
