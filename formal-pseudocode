@@ -9,20 +9,25 @@ Although the paper does not introduce a brand-new model architecture, it signifi
 # Define Constitutional Principles
 constitutional_principles = {Principle_1, Principle_2, ..., Principle_N}
 
-for each training iteration:
-    for each prompt in training dataset do:
-        1. Generate initial response using CAI Model
-        2. Critique response based on a randomly selected principle from Set of Principles
-        3. Revise response based on critique
-        4. Update CAI Model with revised response
+# Supervised Learning Phase 
+for each training epoch:
+    for each prompt in training dataset:
+        for each iteration from 1:4:
+            1. Generate initial response using CAI Model
+            2. Randomly selecrt a principle 
+            3. Critique response based on a randomly selected principle 
+            4. Revise response based on critique
+            5. Update CAI Model with revised response
 
-        if reinforcement learning phase then:
-            1. Generate pair of responses for each harmful prompt
-            2. Evaluate pairs using AI-generated feedback model:
-                1. Choose principle for evaluation
-                2. Calculate probabilities for each response being less harmful
-            3. Update preference model with new evaluations
-            4. Fine-tune CAI Model using updated preference model as reward signal
+# Reinforcement Learning Pahse 
+for each training epoch:
+    for each prompt in training dataset:
+        1. Generate pair of responses for each harmful prompt
+        2. Evaluate pairs using AI-generated feedback model:
+            1. Choose principle for evaluation
+            2. Calculate probabilities for each response being less harmful
+        3. Update preference model with new evaluations
+        4. Fine-tune CAI Model using updated preference model as reward signal
 
 # Evaluate model performance on validation set
 if performance improves then
