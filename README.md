@@ -34,9 +34,8 @@ Initial models are trained using the Reinforcement Learning from Human Feedback 
 
 The paper discusses potential enhancements in scalability and efficiency of AI supervision, development of more robust AI systems, and the possibility of expanding behavioral ranges. There is an ongoing need to align AI behavior more closely with human values and ethics, which includes refining the constitutional principles.
 
-Bai, Yuntao, et al. "Constitutional AI: Harmlessness from AI Feedback." arXiv, 15 Dec. 2022, arxiv.org/abs/2212.08073.
-
 **Critical Analysis**
 
 Challenges such as defining comprehensive and ethically aligned principles, ensuring scalability and adaptability, and legal compliance are discussed as areas needing further exploration and development.
 
+*Bai, Yuntao, et al. "Constitutional AI: Harmlessness from AI Feedback." arXiv, 15 Dec. 2022, arxiv.org/abs/2212.08073.*
