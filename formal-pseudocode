@@ -1,8 +1,6 @@
 Formal Pseudocode
 Although the paper does not introduce a brand-new model architecture, it significantly modifies the approach to training AI models—particularly in terms of how they are supervised and how they learn to handle harmful content autonomously
 
-**Code**:
-
 # Initialize parameters for CAI Model based on pre-trained RLHF Model
 
 # Define Constitutional Principles
