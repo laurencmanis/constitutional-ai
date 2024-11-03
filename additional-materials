@@ -1,4 +1,9 @@
 Additional & Related Reading Materials
 
-1) Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision
+Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision (2023)
 https://www.semanticscholar.org/paper/Principle-Driven-Self-Alignment-of-Language-Models-Sun-Shen/e01515c6138bc525f7aec30fc85f2adf028d4156
+Summary: An AI assistant is developed that combines principle-driven reasoning and the generative abilities of LLMs allowing for self-alignment and regulation of AI tools with minimal human supervision.
+
+
+
+
