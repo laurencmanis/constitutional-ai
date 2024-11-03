@@ -1,0 +1,33 @@
+**Formal Pseudocode**
+
+Although the paper does not introduce a brand-new model architecture, it significantly modifies the approach to training AI models—particularly in terms of how they are supervised and how they learn to handle harmful content autonomously
+
+**Code**:
+
+# Initialize parameters for CAI Model based on pre-trained RLHF Model
+
+# Define Constitutional Principles
+constitutional_principles = {Principle_1, Principle_2, ..., Principle_N}
+
+for each training iteration:
+    for each prompt in training dataset do:
+        1. Generate initial response using CAI Model
+        2. Critique response based on a randomly selected principle from Set of Principles
+        3. Revise response based on critique
+        4. Update CAI Model with revised response
+
+        if reinforcement learning phase then:
+            1. Generate pair of responses for each harmful prompt
+            2. Evaluate pairs using AI-generated feedback model:
+                1. Choose principle for evaluation
+                2. Calculate probabilities for each response being less harmful
+            3. Update preference model with new evaluations
+            4. Fine-tune CAI Model using updated preference model as reward signal
+
+# Evaluate model performance on validation set
+if performance improves then
+    Save current model
+else
+    Reduce learning rate or revert to previous model
+
+Return trained CAI Model
