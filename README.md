@@ -6,6 +6,7 @@ As Artificial Intelligence (AI) systems advance, leveraging their capabilities t
 <img width="1402" alt="Screenshot 2024-11-02 at 7 58 12 PM" src="https://github.com/user-attachments/assets/52422ef1-af51-4967-b7ff-41865017db65">
 
 **CAI Approach**
+
 CAI trains AI systems to autonomously supervise other AIs, enhancing their ability to remain harmless and helpful. The methodology encompasses a dual-phase training process:
   1) **Supervised Learning (SL)**: AI models generate initial responses to potentially harmful prompts. These responses are critiqued and revised based on a predefined set of principles—the "constitution." The revised responses fine-tune the model.
   2) **Reinforcement Learning (RL)**: Models undergo further training through a preference model that uses AI-generated data, aligning responses with constitutional principles. This phase refines AI behavior, encouraging the model to articulate reasons for handling harmful queries rather than evading them.
@@ -16,10 +17,12 @@ CAI trains AI systems to autonomously supervise other AIs, enhancing their abili
 Both phases incorporate chain-of-thought reasoning, enhancing transparency and human-like decision-making in AI.
 
 **Motivation and Goals**
+
 - **Scaling Supervision**: Utilizing AI to oversee the training of other AI systems reduces reliance on human feedback and expands the scope of supervision as AI capabilities grow.
 - **Non-Evasiveness and Transparency**: CAI aims to engage with controversial queries by explaining reasons for non-compliance, thus maintaining helpfulness without harm. The training process is simplified by encoding objectives directly into natural language principles and employing transparent reasoning processes.
   
 **Models and Data**
+
 Initial models are trained using the Reinforcement Learning from Human Feedback (RLHF) method, focusing on helpfulness. These models are further trained to integrate harmlessness by evaluating both attributes. This method significantly enhances the models' ability to adhere to instructions and ethical guidelines. The "HH" models, trained on both helpfulness and harmlessness, demonstrate notable harmlessness compared to those trained only on helpfulness.
 
 **Key Findings**
