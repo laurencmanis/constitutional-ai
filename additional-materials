@@ -8,3 +8,14 @@ Additional & Related Reading Materials
 	- Link: https://www.semanticscholar.org/paper/RLAIF-vs.-RLHF%3A-Scaling-Reinforcement-Learning-from-Lee-Phatale/600ff4c4ae9fc506c86673c5ecce4fa90803e987
 	- Summary: RLAIF (also used in Constituional AI) achieves comparable performance to RLHF, suggesting that training and tuning AI models may require less human participation than previously understood, allowing for larger scalability.
 
+(3) Red Teaming Language Models to Reduce Harms: Methods, Scaling Behaviors, and Lessons Learned (2022)
+	- Link: https://www.semanticscholar.org/paper/Red-Teaming-Language-Models-to-Reduce-Harms%3A-and-Ganguli-Lovitt/17bcb1edbe068e8fe6a97da552c70a77a15bbce7
+	- Summary: RLHF models are increasingly difficult to "red team" as they grow and scale, a concept that is tied to the SL phase in Constitutional AI
+
+(4) RAFT: Reward rAnked FineTuning for Generative Foundation Model Alignment (2023)
+	- Link: https://www.semanticscholar.org/paper/RAFT%3A-Reward-rAnked-FineTuning-for-Generative-Model-Dong-Xiong/3ab661db57d924f4ff1706e05ac807873ca00e0a
+	- Summary: Reward rAnked FineTuning (RAFT) is designed to align generative models and can improve the model performance in both reward learning and other areas, similar to the aim of CAI
+
+(5) Collective Constitutional AI: Aligning a Language Model with Public Input 
+	- Link: https://www.anthropic.com/news/collective-constitutional-ai-aligning-a-language-model-with-public-input
+	- Summary: Also from Anthropic (the creators of Constitutional AI), researchers re-created the Constitutional AI framework and process, using 1,000 community members and public input to form the constitution and write the principles used in training the LLM. 
