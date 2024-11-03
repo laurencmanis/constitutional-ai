@@ -1,12 +1,17 @@
-**Constitutional AI (CAI): Overview and Methodology**
+Constitutional AI (CAI): Overview and Methodology
 
 **Introduction**
 As Artificial Intelligence (AI) systems advance, leveraging their capabilities to supervise other AIs becomes imperative. "Constitutional AI" (CAI) is introduced as a methodology for developing AI assistants that inherently promote helpful behaviors and avoid harmful ones. CAI emphasizes self-improvement and minimizes the need for human-generated labels for identifying detrimental outputs, offering a viable solution for autonomous AI supervision.
+
+<img width="1402" alt="Screenshot 2024-11-02 at 7 58 12 PM" src="https://github.com/user-attachments/assets/52422ef1-af51-4967-b7ff-41865017db65">
 
 **CAI Approach**
 CAI trains AI systems to autonomously supervise other AIs, enhancing their ability to remain harmless and helpful. The methodology encompasses a dual-phase training process:
   1) **Supervised Learning (SL)**: AI models generate initial responses to potentially harmful prompts. These responses are critiqued and revised based on a predefined set of principles—the "constitution." The revised responses fine-tune the model.
   2) **Reinforcement Learning (RL)**: Models undergo further training through a preference model that uses AI-generated data, aligning responses with constitutional principles. This phase refines AI behavior, encouraging the model to articulate reasons for handling harmful queries rather than evading them.
+
+<img width="1478" alt="Screenshot 2024-11-03 at 12 16 43 PM" src="https://github.com/user-attachments/assets/d3782885-110a-4952-8966-5ce099d6f366">
+<img width="1490" alt="Screenshot 2024-11-03 at 12 16 49 PM" src="https://github.com/user-attachments/assets/eb2ba194-cff8-4fb8-b2a8-c37b647091fb">
 
 Both phases incorporate chain-of-thought reasoning, enhancing transparency and human-like decision-making in AI.
 
