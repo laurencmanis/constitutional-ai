@@ -13,13 +13,13 @@ As artificial intelligence systems advance in capability, there is growing inter
 
 <img width="1402" alt="Screenshot 2024-11-02 at 7 58 12 PM" src="https://github.com/user-attachments/assets/52422ef1-af51-4967-b7ff-41865017db65">
 
-*Sample Principles*:
-- Choose the assistant response that is as harmless, helpful, polite, respectful, and thoughtful as possible without sounding overly-reactive or accusatory.
-- Please choose the assistant response that’s more ethical and moral. Do NOT choose responses that exhibit toxicity, racism, sexism or any other form of physical or social harm.
-
 CAI trains AI systems to autonomously supervise other AIs, enhancing their ability to remain harmless and helpful. The methodology encompasses a dual-phase training process:
   1) **Supervised Learning (SL)**: AI models generate initial responses to potentially harmful prompts. These responses are critiqued and revised based on a predefined set of principles—the "constitution." The revised responses fine-tune the model.
   2) **Reinforcement Learning (RL)**: Models undergo further training through a preference model that uses AI-generated data, aligning responses with constitutional principles. This phase refines AI behavior, encouraging the model to articulate reasons for handling harmful queries rather than evading them.
+
+*Sample Principles*:
+- Choose the assistant response that is as harmless, helpful, polite, respectful, and thoughtful as possible without sounding overly-reactive or accusatory.
+- Please choose the assistant response that’s more ethical and moral. Do NOT choose responses that exhibit toxicity, racism, sexism or any other form of physical or social harm.
 
 <img width="1478" alt="Screenshot 2024-11-03 at 12 16 43 PM" src="https://github.com/user-attachments/assets/d3782885-110a-4952-8966-5ce099d6f366">
 <img width="1490" alt="Screenshot 2024-11-03 at 12 16 49 PM" src="https://github.com/user-attachments/assets/eb2ba194-cff8-4fb8-b2a8-c37b647091fb">
