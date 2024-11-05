@@ -4,6 +4,11 @@
 
 As artificial intelligence systems advance in capability, there is growing interest in leveraging their abilities to oversee other AI systems. This paper introduces 'Constitutional AI' (CAI) as a methodology for developing AI assistants that inherently avoid harmful behaviors, and promote helpful ones. CAI emphasizes self-improvement and minimizes reliance on human-generated labels for identifying detrimental outputs, presenting a viable solution to the challenge of autonomous AI supervision. 
 
+**Motivation and Goals**
+
+- **Scaling Supervision**: Utilizing AI to oversee the training of other AI systems reduces reliance on human feedback and expands the scope of supervision as AI capabilities grow.
+- **Non-Evasiveness and Transparency**: CAI aims to engage with controversial queries by explaining reasons for non-compliance, thus maintaining helpfulness without harm. The training process is simplified by encoding objectives directly into natural language principles and employing transparent reasoning processes.
+
 <img width="1402" alt="Screenshot 2024-11-02 at 7 58 12 PM" src="https://github.com/user-attachments/assets/52422ef1-af51-4967-b7ff-41865017db65">
 
 **CAI Approach**
@@ -16,11 +21,6 @@ CAI trains AI systems to autonomously supervise other AIs, enhancing their abili
 <img width="1490" alt="Screenshot 2024-11-03 at 12 16 49 PM" src="https://github.com/user-attachments/assets/eb2ba194-cff8-4fb8-b2a8-c37b647091fb">
 
 Both phases incorporate chain-of-thought reasoning, enhancing transparency and human-like decision-making in AI.
-
-**Motivation and Goals**
-
-- **Scaling Supervision**: Utilizing AI to oversee the training of other AI systems reduces reliance on human feedback and expands the scope of supervision as AI capabilities grow.
-- **Non-Evasiveness and Transparency**: CAI aims to engage with controversial queries by explaining reasons for non-compliance, thus maintaining helpfulness without harm. The training process is simplified by encoding objectives directly into natural language principles and employing transparent reasoning processes.
   
 **Models and Data**
 
